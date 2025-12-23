@@ -1,13 +1,13 @@
 
 Header{
-    background-color: rgb(203, 219, 179);
+    background-color: rgb(237, 247, 224);
     text-align: center;
     padding: 20px;
 }
 
 body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #f4f4f4;
+    background-color: rgb(237, 247, 224);
     margin: 0;
     padding: 0;
 }
@@ -53,4 +53,6 @@ nav a{
 nav a:hover{
     color: #6C757D;
 }
+
+
 
