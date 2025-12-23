@@ -4,21 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ChristmasGift</title>
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/gift.css">
 </head>
 <body>
-    <main>
-        <header>
-            <h1>Enter the following inf</h1>
-        </header>
-            
+    <main class="wrap">
+    <h2>Blow the Candle</h1>
 
+    <section id="scene" class="scene">
+      <div class="candle">
+        <div class="wick"></div>
+        <div class="flame" id="flame"></div>
+        <div class="smoke" id="smoke"></div>
+      </div>
+    </section>
 
+    <div class="meter">
+      <div class="bar" id="bar"></div>
+    </div>
 
+    <button id="btn">Enable Microphone</button>
+    <p class="hint" id="hint">
+      After enabling, blow into the mic to put it out.
+    </p>
+  </main>
 
-    </main>
-    
+  <!-- External JS -->
+  <script src="js/app.js"></script>
 </body>
-<script src="js/app.js"></script>
 </html>
