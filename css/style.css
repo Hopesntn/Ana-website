@@ -1,6 +1,31 @@
-.nav-wrapper{
-    background-color: rgb(182, 176, 176);
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
+header{
+    padding: 0;
+}
+.site-header{
+    margin: 15px;
+    background-color: rgb(226, 219, 219);
+    border-radius: 5px;
+}
+
+.nav-left{
+    
+}
+
+.nav-left a, .nav-right a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+
+
 
 
 
