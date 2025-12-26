@@ -1,31 +1,25 @@
-html,body{
+html,
+body {
     margin: 0;
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+
 }
-header{
+.main-photo img{
+    width: 50rem;
+    align-content: center;
+    border-radius: 5px;
+    box-shadow:10cqmin;
+}
+
+header {
     padding: 0;
+    background-color: rgb(221, 212, 212);
+
 }
-.site-header{
+
+.site-header {
     margin: 15px;
     background-color: rgb(226, 219, 219);
     border-radius: 5px;
 }
-
-.nav-left{
-    
-}
-
-.nav-left a, .nav-right a{
-    text-decoration: none;
-    color: inherit;
-}
-
-
-
-
-
-
-
-
