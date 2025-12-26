@@ -1,0 +1,52 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px 14px;
+    margin: 0px auto;
+    background-color: rgba(206, 200, 200, 0.46);
+    border-radius: 12px;
+
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+button{
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+.left-bar{
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-control {
+    width: 5em;
+}
+
+.right-bar ul {
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.right-bar li {
+    list-style: none;
+}
+
+.right-bar a {
+    text-decoration: none;
+    color: inherit;
+}
