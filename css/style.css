@@ -5,11 +5,32 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
-.main-photo img{
-    width: 50rem;
-    align-content: center;
-    border-radius: 5px;
-    box-shadow:10cqmin;
+
+
+.main-title {
+    font-size: 15rem;
+    padding-left: 250px;
+    position: relative;
+    bottom: 50px;
+}
+.main-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 100px;
+}
+.main-photo img {
+    width: 95rem;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.subtitle {
+    padding-right: 200px;
+    text-align: right;
+    position: relative;
+    top: -200px;
 }
 
 header {
@@ -23,3 +44,5 @@ header {
     background-color: rgb(226, 219, 219);
     border-radius: 5px;
 }
+
+
